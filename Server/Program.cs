@@ -12,7 +12,8 @@ builder.Services.AddCors(policy =>
     policy.AddPolicy("CorsPolicy", opt => opt
     .AllowAnyOrigin()
     .AllowAnyHeader()
-    .AllowAnyMethod());
+    .AllowAnyMethod()
+    .WithExposedHeaders("X-Pagination"));
 });
 
 builder.Services.AddDbContext<ProductContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("sqlConnection")));

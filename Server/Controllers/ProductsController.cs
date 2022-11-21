@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Text.Json;
 using System.Threading.Tasks;
 using BlazorProducts.Server.Repository;
 using Entities.Models;
+using Entities.RequestFeatures;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlazorProducts.Server.Controllers
@@ -18,9 +20,12 @@ namespace BlazorProducts.Server.Controllers
         }
 
 		[HttpGet]
-        public async Task<IActionResult> Get()
+        public async Task<IActionResult> Get([FromQuery]ProductParameters productParameters)
         {
-            var products = await _repo.GetProducts();
+            var products = await _repo.GetProducts(productParameters);
+
+            Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(products.MetaData));
+
             return Ok(products);
         }
 

@@ -2024,23 +2024,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SD\\.nuget\\packages\\": {},
+    "C:\\Users\\Stupin_D\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\APP\\BlazorClintAndServerCodemaze\\Server\\BlazorProducts.Server.csproj",
+      "projectUniqueName": "C:\\dotnetapp\\CodeMazeBlazor\\Server\\BlazorProducts.Server.csproj",
       "projectName": "BlazorProducts.Server",
-      "projectPath": "C:\\APP\\BlazorClintAndServerCodemaze\\Server\\BlazorProducts.Server.csproj",
-      "packagesPath": "C:\\Users\\SD\\.nuget\\packages\\",
-      "outputPath": "C:\\APP\\BlazorClintAndServerCodemaze\\Server\\obj\\",
+      "projectPath": "C:\\dotnetapp\\CodeMazeBlazor\\Server\\BlazorProducts.Server.csproj",
+      "packagesPath": "C:\\Users\\Stupin_D\\.nuget\\packages\\",
+      "outputPath": "C:\\dotnetapp\\CodeMazeBlazor\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\SD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Stupin_D\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2057,8 +2057,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\APP\\BlazorClintAndServerCodemaze\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\APP\\BlazorClintAndServerCodemaze\\Entities\\Entities.csproj"
+            "C:\\dotnetapp\\CodeMazeBlazor\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\dotnetapp\\CodeMazeBlazor\\Entities\\Entities.csproj"
             }
           }
         }
@@ -2099,24 +2099,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.11, 6.0.11]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.11, 6.0.11]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.11, 6.0.11]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.11, 6.0.11]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
