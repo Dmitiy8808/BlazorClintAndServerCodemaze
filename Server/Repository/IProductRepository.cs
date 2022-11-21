@@ -6,5 +6,6 @@ namespace BlazorProducts.Server.Repository
     {
         Task<IEnumerable<Product>> GetProducts();
         Task<Product> GetProduct(Guid id);
+        Task CreateProduct(Product product);
     }
 }

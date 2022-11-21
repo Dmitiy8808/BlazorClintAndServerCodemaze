@@ -17,5 +17,11 @@ namespace BlazorProducts.Server.Repository
 
         public async Task<Product> GetProduct(Guid id) =>
             await _context.Products.FirstOrDefaultAsync(p => p.Id.Equals(id));
+
+        public async Task CreateProduct(Product product)
+        {
+            _context.Add(product);
+            await _context.SaveChangesAsync();
+        }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using BlazorProducts.Server.Repository;
+using Entities.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlazorProducts.Server.Controllers
@@ -28,6 +29,13 @@ namespace BlazorProducts.Server.Controllers
         {
             var product = await _repo.GetProduct(id);
             return Ok(product);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> CreateProduct(Product product)
+        {
+            await _repo.CreateProduct(product);
+            return CreatedAtAction(nameof(GetProduct), new { id = product.Id }, product);
         }
     }
 }

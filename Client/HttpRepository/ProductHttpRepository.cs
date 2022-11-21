@@ -14,6 +14,18 @@ namespace Client.HttpRepository
         {
             _client = client;
         }
+
+        public async Task CreateProduct(Product product)
+        {
+            await _client.PutAsJsonAsync("products", product);
+        }
+
+        public async Task<Product> GetProduct(Guid id)
+        {
+            var product = await _client.GetFromJsonAsync<Product>($"products/{id}");
+            return product;
+        }
+
         public async Task<List<Product>> GetProducts()
         {
             var products = await _client.GetFromJsonAsync<List<Product>>("products");

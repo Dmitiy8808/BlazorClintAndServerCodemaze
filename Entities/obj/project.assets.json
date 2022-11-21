@@ -8,23 +8,23 @@
     ".NETStandard,Version=v2.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Stupin_D\\.nuget\\packages\\": {},
+    "C:\\Users\\SD\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dotnetapp\\CodeMazeBlazor\\Entities\\Entities.csproj",
+      "projectUniqueName": "c:\\APP\\BlazorClintAndServerCodemaze\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\dotnetapp\\CodeMazeBlazor\\Entities\\Entities.csproj",
-      "packagesPath": "C:\\Users\\Stupin_D\\.nuget\\packages\\",
-      "outputPath": "C:\\dotnetapp\\CodeMazeBlazor\\Entities\\obj\\",
+      "projectPath": "c:\\APP\\BlazorClintAndServerCodemaze\\Entities\\Entities.csproj",
+      "packagesPath": "C:\\Users\\SD\\.nuget\\packages\\",
+      "outputPath": "c:\\APP\\BlazorClintAndServerCodemaze\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Stupin_D\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\SD\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

@@ -1,4 +1,5 @@
 @page "/products"
+@using Client.Components
 
 <div class="row">
     <div class="col-md-10">
@@ -10,7 +11,7 @@
 </div>
 <div class="row">
     <div class="col">
-        @*Place for products*@
+        <ProductTable Products="ProductList" />
     </div>
 </div>
 <div class="row">
